@@ -1,0 +1,244 @@
+@charset "UTF-8";
+#container {
+  width: 90vw;
+  margin-top: 62px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 4px #949494;
+  box-shadow: 4px 4px 4px #949494; }
+
+body {
+  background-attachment: fixed;
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  font-family: Microsoft JhengHei,"微軟正黑體", PMingLiU, Arial, Helvetica, sans-serif; }
+
+.showBig {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .showBig .closeBtn {
+    position: absolute;
+    color: #fff;
+    font-size: 42px;
+    right: 20px;
+    top: 20px; }
+  .showBig img {
+    position: absolute;
+    padding: 10px;
+    height: calc(100vh - 20px);
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 70vw; }
+
+.takeup {
+  background-color: #FFD5D5;
+  position: fixed;
+  border-radius: 180px 180px 180px 180px;
+  right: 15px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  -webkit-box-shadow: 4px 4px 4px #949494;
+  box-shadow: 4px 4px 4px #949494;
+  z-index: 1; }
+  .takeup a {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none; }
+  .takeup:hover {
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background-color: #EAD1F6;
+    font-size: 40px;
+    width: 70px;
+    height: 70px; }
+  .takeup span {
+    right: -20px;
+    margin-top: 20px; }
+
+.jumbotron .btn:hover {
+  font-size: 22px;
+  color: yellow;
+  -webkit-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s; }
+
+#header {
+  width: 90vw;
+  height: 35vw;
+  margin-bottom: 0px;
+  background-image: url(../images/社標正式.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 800px; }
+
+#footer {
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  clear: both;
+  color: #FFFFFF;
+  font-size: 10pt;
+  background-color: #5D00AC;
+  font-family: "Microsoft JhengHei", PMingLiU, Arial, BiauKai; }
+
+#content {
+  width: 620px;
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  float: left;
+  position: relative; }
+  #content .osusume {
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+    font-size: 0px; }
+  #content .osusumein h4 {
+    position: absolute;
+    opacity: 0; }
+
+.osusumein p {
+  position: absolute;
+  opacity: 0; }
+
+#content .osusumein h4 {
+  font-size: 100px;
+  top: 0px;
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s; }
+
+#content .osusumein p {
+  font-size: 40px;
+  top: 200px;
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s; }
+
+#content .osusumein:hover h4 {
+  opacity: 1; }
+
+.osusumein:hover p {
+  opacity: 1; }
+
+#content .osusumein {
+  left: -22px;
+  width: 90vw;
+  height: 100vh;
+  border: 1px solid #F4F4F4;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: "Microsoft JhengHei", PMingLiU, Arial, BiauKai;
+  vertical-align: top; }
+
+#content .osusume1 {
+  background-image: url(../images/第一章章圖.png);
+  background-size: cover; }
+  #content .osusume1:hover {
+    background-image: url(../images/osusume1.png);
+    background-size: cover; }
+    #content .osusume1:hover h4 {
+      color: #FDFF62;
+      top: 30vh; }
+    #content .osusume1:hover p {
+      color: white;
+      top: 60vh; }
+
+#content .osusume2 {
+  background-image: url(../images/../images/電容章節圖.jpg);
+  background-size: cover; }
+  #content .osusume2:hover {
+    background-image: url(../images/../images/電容章節背景.jpg);
+    background-size: cover; }
+    #content .osusume2:hover h4 {
+      color: #4A09E3;
+      top: 30vh; }
+    #content .osusume2:hover p {
+      color: aliceblue;
+      top: 60vh; }
+
+#content .osusume3 {
+  background-image: url(../images/電感章節圖.jpg);
+  background-size: cover; }
+  #content .osusume3:hover {
+    background-image: url(../images/電感背景圖.png);
+    background-size: cover; }
+    #content .osusume3:hover h4 {
+      color: #FBD86F;
+      top: 30vh; }
+    #content .osusume3:hover p {
+      color: aliceblue;
+      top: 60vh; }
+
+#content .osusume4 {
+  background-image: url(../images/電晶體電流2.png);
+  background-size: cover; }
+  #content .osusume4:hover {
+    background-image: url(../images/電晶體背景圖.png);
+    background-size: cover; }
+    #content .osusume4:hover h4 {
+      color: palegreen;
+      top: 30vh; }
+    #content .osusume4:hover p {
+      color: aliceblue;
+      top: 60vh; }
+
+.item {
+  color: #0015E8;
+  font-weight: bold; }
+
+.tip {
+  font-family: "Microsoft JhengHei", PMingLiU, Arial, BiauKai;
+  border: medium dotted #EA090D;
+  margin-left: 5%;
+  padding-left: 15px;
+  padding-right: auto;
+  margin-right: 5%;
+  width: 64%;
+  border-radius: 2px 26px;
+  -webkit-box-shadow: -2px 2px #FF4B4E;
+  box-shadow: -2px 2px #FF4B4E; }
+
+.title {
+  text-align: center;
+  font-family: "Microsoft JhengHei", PMingLiU, Arial, BiauKai;
+  font-weight: 900;
+  font-size: 34px;
+  width: 100%; }
+
+.learn {
+  position: relative;
+  font-family: "Microsoft JhengHei", PMingLiU, Arial, BiauKai;
+  text-align: left;
+  margin-top: 10px;
+  border-color: #8411D7;
+  border-style: dashed;
+  width: 90%;
+  left: 5%;
+  border-radius: 10px; }
+
+.learn_1 {
+  display: inline-block;
+  margin-left: -122px; }
+
+.learn_2 {
+  display: inline-block;
+  margin-left: 95px; }
+
+.main {
+  position: relative;
+  padding-left: 15%; }
+
+.important {
+  font-family: 'cwTeXYen',"Wawati SC Regular", "PingFang SC Semibold", "Microsoft JhengHei";
+  color: #C52BA9;
+  font-size: 26pt; }

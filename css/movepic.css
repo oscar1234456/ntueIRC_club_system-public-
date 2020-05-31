@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+.osusume {
+  width: 605px;
+  height: 500px;
+  font-size: 0px; }
+
+.osusumein h4, .osusumein p {
+  position: absolute;
+  opacity: 0; }
+
+.osusumein h4 {
+  font-size: 40px;
+  top: 0px;
+  transition: all 0.7s; }
+
+.osusumein p {
+  font-size: 18px;
+  top: 200px;
+  transition: all 0.7s; }
+
+.osusumein:hover h4,.osusumein:hover p {
+  opacity: 1; }
+
+.osusumein {
+  width: 300px;
+  height: 250px;
+  border: 1px solid #F4F4F4;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: "Microsoft JhengHei", PMingLiU, Arial, BiauKai;
+  vertical-align: top; }
+
+.osusume1 {
+  background-image: url(../images/第一章章圖.png);
+  background-size: cover; }
+
+.osusume1:hover {
+  background-image: url(../images/osusume1.png);
+  background-size: cover; }
+
+.osusume1:hover h4 {
+  color: #FDFF62;
+  top: 3px; }
+
+.osusume1:hover p {
+  color: white;
+  top: 120px; 
+}
+.osusume2 {
+  background-image: url(../images/電容章節圖.jpg);
+  background-size: cover; 
+}
+.osusume2:hover {
+  background-image: url(../images/../images/電容章節背景.jpg);
+  background-size: cover; }
+
+.osusume2:hover h4 {
+  color: #4A09E3;
+  top: 3px; }
+
+.osusume2:hover p {
+  color: aliceblue;
+  top: 120px; }
+
+.osusume3 {
+  background-image: url(../images/電感章節圖.jpg);
+  background-size: cover; }
+
+
+.osusume3:hover {
+  background-image: url(../images/電感背景圖.png);
+  background-size: cover; }
+
+.osusume3:hover h4 {
+  color:darkorange;
+  top: 3px; }
+
+.osusume3:hover p {
+  color:aliceblue;
+  top: 120px; }
+
+.osusume4 {
+  background-image: url(../images/電晶體電流2.png);
+  background-size: cover; }
+
+
+.osusume4:hover {
+  background-image: url(../images/電晶體背景圖.png);
+  background-size: cover; }
+
+.osusume4:hover h4 {
+  color:palegreen;
+  top: 3px; }
+
+.osusume4:hover p {
+  color:aliceblue;
+  top: 120px; }

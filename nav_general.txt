@@ -1,0 +1,5 @@
+member_menu.php|社員管理
+carde_menu.php|幹部管理
+course_menu.php|課程管理
+teacher_menu.php|教師管理
+homework_menu.php|作業管理
